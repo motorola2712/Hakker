@@ -3,7 +3,7 @@ const axios = require('axios');
 const options = {
   method: 'GET',
   url: 'https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total',
-  params: {country: 'Canada'},
+  params: {country: 'Belgium'},
   headers: {
     'X-RapidAPI-Key': 'c395c3f2a5mshfe22d80ca46ee0ap1cb2c9jsn9e7ca3c95395',
     'X-RapidAPI-Host': 'covid-19-coronavirus-statistics.p.rapidapi.com'
